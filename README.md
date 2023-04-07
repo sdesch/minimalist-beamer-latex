@@ -25,3 +25,5 @@ Background image:
 -------------------------------------------------------------------------------------------------------
 <br>Spanish: Esta es una plantilla básica, simple, minimalista para presentar tus exposiciones tipo beamer.</br>
 Descarga el .zip desde acá, y en Overleaf, das click en Nuevo proyecto -> Subir proyecto. 
+-------------------------------------------------------------------------------------------------------
+See here: https://www.overleaf.com/read/sxxnhqmqwqns
