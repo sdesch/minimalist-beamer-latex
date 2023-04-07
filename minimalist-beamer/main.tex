@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\usepackage{panqueques}
+
+\title{minimalist}
+\author{sdesch}
+\date{\today}
+
+\begin{document}
+
+%title-page
+\include{title-page/custom}
+
+%examples
+\begin{frame}[plain]
+    \begingroup
+        \fontfamily{qag}\selectfont
+        \Huge\color{black}\textbf{Introduction}\\[0.6em]
+    \endgroup
+    \begingroup
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Etiam lobortis facilisis sem. Nullam nec mi et neque
+        pharetra sollicitudin. Praesent imperdiet mi nec ante. Donec
+        ullamcorper, felis non sodales commodo, lectus velit ultrices
+        augue, a dignissim nibh lectus placerat pede. Vivamus nunc
+        nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor.
+    \endgroup
+\end{frame}
+
+
+%real example
+\begin{frame}[plain]
+    \begin{bee}[Definición]
+        Sea $D$ un dominio de integridad. Una \textbf{\textit{función (o norma) euclídea}} sobre $D$ es cualquier función $v:D\backslash\{0\}\rightarrow\mathbb{N}$ tal que:
+            \begin{enumerate}[1)]
+                \item Para todo $a,b\in D$, con $a\neq 0$, existen $q,r\in D$ tal que $a=bq+r$, donde $r=0$ o $v(r)<v(b)$.
+                \item Para todo $a,b\in D$ no nulos, $v(a)\leq v(ab)$.
+            \end{enumerate}
+        Luego, un dominio de integridad $D$ es un \textbf{\textit{dominio euclídeo}} si existe una función euclídea en $D$.
+    \end{bee} 
+\end{frame}
+
+\begin{frame}{Title}
+    \begin{bee}[]
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Etiam lobortis facilisis sem. Nullam nec mi et neque
+        pharetra sollicitudin. Praesent imperdiet mi nec ante. Donec
+        ullamcorper, felis non sodales commodo, lectus velit ultrices
+        augue, a dignissim nibh lectus placerat pede. Vivamus nunc
+        nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor.
+    \end{bee}
+\end{frame}
+
+\begin{frame}[plain]
+    \begin{columns}
+        \begin{column}{5cm}
+            \begin{bee}[]
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Etiam lobortis facilisis sem. Nullam nec mi et neque
+                pharetra sollicitudin. Praesent imperdiet mi nec ante. Donec
+                ullamcorper, felis non sodales commodo, lectus velit ultrices
+                augue, a dignissim nibh lectus placerat pede.
+            \end{bee}
+        \end{column}
+        \begin{column}{5cm}
+            \begin{bee}[note 1]
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Etiam lobortis facilisis sem. 
+            \end{bee}
+            \begin{bee}[note 2]
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Etiam lobortis facilisis sem. 
+            \end{bee}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\end{document}
