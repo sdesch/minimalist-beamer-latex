@@ -22,8 +22,8 @@ I didn't create any package or something. I'm just sharing the base design for s
 </p>
 Background image:
 <a href="http://www.freepik.com">Designed by kjpargeter / Freepik</a>
--------------------------------------------------------------------------------------------------------
+--------------------------------
 <br>Spanish: Esta es una plantilla básica, simple, minimalista para presentar tus exposiciones tipo beamer.</br>
 Descarga el .zip desde acá, y en Overleaf, das click en Nuevo proyecto -> Subir proyecto. 
--------------------------------------------------------------------------------------------------------
-See here: https://www.overleaf.com/read/sxxnhqmqwqns
+--------------------------------
+<br>See here: https://www.overleaf.com/read/sxxnhqmqwqns </br>
