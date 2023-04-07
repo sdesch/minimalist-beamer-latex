@@ -1,5 +1,5 @@
 # minimalist-beamer-latex
-This is a minimalist latex template for your Beamer presentations. (Upload to Overleaf)
+<br>This is a minimalist latex template for your Beamer presentations. (download .zip and upload to Overleaf)</br>
 [minimalist_beamer.pdf](https://github.com/sdesch/minimalist-beamer-latex/files/11175554/minimalist_beamer.pdf)
 
 <p align="center">
