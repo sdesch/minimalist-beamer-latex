@@ -1,6 +1,8 @@
 # minimalist-beamer-latex
 <br>This is a minimalist latex template for your Beamer presentations. (download .zip and upload to Overleaf)</br>
-[minimalist_beamer.pdf](https://github.com/sdesch/minimalist-beamer-latex/files/11175554/minimalist_beamer.pdf)
+<br>[minimalist_beamer.pdf](https://github.com/sdesch/minimalist-beamer-latex/files/11175554/minimalist_beamer.pdf)</br>
+[minimalist_beamer_169.pdf](https://github.com/sdesch/minimalist-beamer-latex/files/11176569/minimalist_beamer_169.pdf)
+
 
 <p align="center">
 <br>This is a custom title-page, you can change logo, title, name, and date. </br>
