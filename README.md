@@ -1,5 +1,5 @@
 # minimalist-beamer-latex
-<br>This is a minimalist latex template for your Beamer presentations. (download .zip and upload to Overleaf)</br>
+<br>This is a minimalist LaTeX template for your Beamer presentations. (download .zip and upload to Overleaf)</br>
 <br>[minimalist_beamer.pdf](https://github.com/sdesch/minimalist-beamer-latex/files/11175554/minimalist_beamer.pdf)</br>
 [minimalist_beamer_169.pdf](https://github.com/sdesch/minimalist-beamer-latex/files/11176569/minimalist_beamer_169.pdf)
 
@@ -21,11 +21,10 @@ I didn't create any package or something. I'm just sharing the base design for s
 <p align="center">
 <br>Since it is a base design (with modern fonts, rounded boxes), you can also try changing colors, background, and get more colorful designs. Example:</br>
 <img src="https://user-images.githubusercontent.com/57083299/230535667-3183ebad-a01e-4cff-9e42-90484a931549.png" width="800">
+<br>Background image:
+<a href="http://www.freepik.com">Designed by kjpargeter / Freepik</a></br>
 </p>
-Background image:
-<a href="http://www.freepik.com">Designed by kjpargeter / Freepik</a>
---------------------------------
+
 <br>Spanish: Esta es una plantilla básica, simple, minimalista para presentar tus exposiciones tipo beamer.</br>
 Descarga el .zip desde acá, y en Overleaf, das click en Nuevo proyecto -> Subir proyecto. 
---------------------------------
-<br>See here: https://www.overleaf.com/read/sxxnhqmqwqns </br>
+
