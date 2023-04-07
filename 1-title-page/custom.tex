@@ -1,0 +1,14 @@
+\begin{frame}[noframenumbering,plain]
+    \begin{tikzpicture}[remember picture, overlay]
+        \fill[black] (current page.south west) rectangle ([xshift=4cm]current page.north west);
+        \node at ([xshift=2cm,yshift=-4.5cm]current page.north west) {\includegraphics[width=3cm]{1-title-page/log.png}};
+    \end{tikzpicture}
+    \begingroup  
+        \flushright
+        {\fontfamily{qag}\selectfont\Huge\bfseries\color{black}\MyTitle}\vspace{1em}\\
+        \MyAuthor\vspace{0.5em}\\
+        \MyDate\par
+    \endgroup
+\end{frame}
+
+%edit as needed

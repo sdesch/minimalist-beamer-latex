@@ -1,0 +1,51 @@
+\usetheme{metropolis} %set theme
+\setbeamercolor{frametitle}{bg=black,fg=white} 
+\setbeamertemplate{frame footer}{\textbf{\insertshorttitle}}
+\setbeamertemplate{frame numbering}[none]
+
+
+\usepackage{graphicx} %required for inserting images
+
+\usepackage[shortlabels]{enumitem} %items
+
+\usepackage{amsmath, amsthm, amssymb} %math writing
+
+\usepackage[default]{gillius} %font design
+\usepackage{sfmath}
+\usepackage{sansmathaccent} 
+
+\usepackage{tikz} %drawing
+
+\usepackage{authoraftertitle} %for title use in doc
+
+\usepackage{hyperref} %references, links, etc 
+
+\usepackage[most]{tcolorbox} %boxes
+\tcbuselibrary{skins} 
+\tcbuselibrary{listings,breakable}
+
+\newtcolorbox{tbee}[1][] %minimalist box design
+{
+enhanced,attach boxed title to top left={xshift=4mm,yshift=-3mm,yshifttext=-1mm},
+colback=white,
+colframe=black,
+colbacktitle=black,
+coltitle=white,
+arc=4mm,boxrule=2pt,
+title= #1,
+fonttitle = \fontfamily{qag}\selectfont\large\bfseries,
+halign=flush left,
+boxed title style={size=small,colframe=white,arc=2mm}
+}
+
+\newenvironment{bee}[1][]{
+    \begin{tbee}[#1]
+ }{
+   \end{tbee}
+}
+
+\newcommand{\C}{\mathbb{C}} %easy math set commands
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
